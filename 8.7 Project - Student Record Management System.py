@@ -32,7 +32,7 @@ print(f"All Courses: {all_courses}")
 remaining_courses = student_courses.difference(completed_courses)
 print(f"Remaining Courses: {remaining_courses}")
 
-# 5. Use frozen sets to create immutable sets of student data.
+# Use frozen sets to create immutable sets of student data.
 frozen_courses = frozenset(["Math", "Social Media", "English"])
 print(f"Frozen Courses: {frozen_courses}")
 
