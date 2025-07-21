@@ -1,11 +1,13 @@
 #Project: Student Record Management System
 
 # 1. Create tuples to store student information (name, age, grade).
-student_name = ("Christina", "Bobby", "Danniel")
-student_age = ("31", "28", "24")
-student_grade = ("A", "C", "B")
+student_names = ("Christina", "Bobby", "Danniel", "Alice", "John")
+student_ages = ("31", "28", "24", "22", "30")
+student_grades = ("A", "C", "B", "A", "B")
 
 # 2. Use tuple methods to count and index elements.
+grade_count = student_grades.count("B")
+print(f"This is {student_names[1]} aged {student_ages[1]}. Their test result was a B.")
 
 # 3. Create sets to store unique student IDs and courses.
 
