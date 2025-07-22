@@ -8,10 +8,9 @@ student_4 = ("Alice", 30, "A")
 student_5 = ("John", 22, "B") 
 
 # Create a tuple of students
-students = (student_1, student_2, student_3, student_4, student_5) # Added student_5 to the 'students' tuple.
+students = (student_1, student_2, student_3, student_4, student_5)
 
 # 2. Use tuple methods to count and index elements.
-grade_count = students.count("B")
 print(f"Number of students: {len(students)}")
 print(f"Index of Jane Smith: {students.index(student_2)}")
 
