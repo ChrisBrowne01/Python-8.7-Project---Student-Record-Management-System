@@ -1,20 +1,20 @@
 #Project: Student Record Management System
 
-# 1. Create tuples to store student information (name, age, grade).
+# 1. Create Tuples to store student information (name, age, grade).
 student_1 = ("Christina", 31, "A")
 student_2 = ("Bobby", 28, "C")
 student_3 = ("Danniel", 24, "B")
 student_4 = ("Alice", 30, "A")
 student_5 = ("John", 22, "B") 
 
-# Create a tuple of students
+# Create a Tuple of students
 students = (student_1, student_2, student_3, student_4, student_5)
 
-# 2. Use tuple methods to count and index elements.
+# 2. Use Tuple methods to count and index elements.
 print(f"Number of students: {len(students)}")
-print(f"Index of Bobby: {students.index(student_2)}") # Corrected "Index of Jane Smith" to "Index of Bobby".
+print(f"Index of Bobby: {students.index(student_2)}")
 
-# 3. Create sets to store unique student IDs and courses.
+# 3. Create Sets to store unique student IDs and courses.
 student_ids = {1002, 1003, 1004, 1005, 1006, 1007}
 student_courses = {"Web Programming", "Social Media", "Web Programming", "English", "Web Programming"}
 
@@ -22,8 +22,8 @@ student_courses = {"Web Programming", "Social Media", "Web Programming", "Englis
 print(f"Student IDs: {student_ids}")
 print(f"Courses: {student_courses}")
 
-new_students = {1006, 1007}
-student_ids.update(new_students)
+new_students_ids = {1008, 1009} # Rename `new_students` to 'new_students_ids' and populate set with relevant IDs
+student_ids.update(new_students_ids)
 print(f"Updated Student IDs: {student_ids}")
 
 completed_courses = {"Social Media", "English"}
