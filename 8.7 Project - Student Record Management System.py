@@ -24,17 +24,16 @@ print(f"Courses: {student_courses}")
 
 new_students_ids = {1008, 1009} 
 student_ids.update(new_students_ids)
-print(f"Updated Student IDs (added 1008, 1009): {student_ids}") # Add 'Updated Student IDs (added 1008, 1009):' for improved clarity.
+print(f"Updated Student IDs (added 1008, 1009): {student_ids}")
 
 # Perform set operations
 completed_courses = {"Social Media", "English"}
 all_courses = student_courses.union(completed_courses)
-print(f"All Courses (union): {all_courses}") # Add (union) for improved clarity
+print(f"All Courses (union): {all_courses}")
 
 remaining_courses = student_courses.difference(completed_courses)
-print(f"Remaining Courses (difference): {remaining_courses}") # Add (difference) for improved clarity
+print(f"Remaining Courses (difference): {remaining_courses}")
 
-# Add missing (intersection) method
 common_courses = student_courses.intersection(completed_courses)
 print(f"Common Courses (intersection): {common_courses}")
 
