@@ -12,7 +12,7 @@ students = (student_1, student_2, student_3, student_4, student_5)
 
 # 2. Use tuple methods to count and index elements.
 print(f"Number of students: {len(students)}")
-print(f"Index of Jane Smith: {students.index(student_2)}")
+print(f"Index of Bobby: {students.index(student_2)}") # Corrected "Index of Jane Smith" to "Index of Bobby".
 
 # 3. Create sets to store unique student IDs and courses.
 student_ids = {1002, 1003, 1004, 1005, 1006, 1007}
