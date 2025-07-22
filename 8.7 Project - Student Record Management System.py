@@ -1,13 +1,15 @@
 #Project: Student Record Management System
 
 # 1. Create tuples to store student information (name, age, grade).
-student_1 = ("Christina", 31, "a")
+student_1 = ("Christina", 31, "A")
 student_2 = ("Bobby", 28, "C")
 student_3 = ("Danniel", 24, "B")
 student_4 = ("Alice", 30, "A")
-student_5 = ("John", 22, "B")
+student_5 = ("John", 22, "B") 
 
-students = (student_1, student_2, student_3, student_4)
+# Create a tuple of students
+students = (student_1, student_2, student_3, student_4, student_5) # Added student_5 to the 'students' tuple.
+
 # 2. Use tuple methods to count and index elements.
 grade_count = students.count("B")
 print(f"Number of students: {len(students)}")
