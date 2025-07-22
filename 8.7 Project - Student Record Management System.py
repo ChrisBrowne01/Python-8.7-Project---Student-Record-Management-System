@@ -22,9 +22,9 @@ student_courses = {"Web Programming", "Social Media", "Web Programming", "Englis
 print(f"Student IDs: {student_ids}")
 print(f"Courses: {student_courses}")
 
-new_students_ids = {1008, 1009} # Rename `new_students` to 'new_students_ids' and populate set with relevant IDs
+new_students_ids = {1008, 1009} 
 student_ids.update(new_students_ids)
-print(f"Updated Student IDs: {student_ids}")
+print(f"Updated Student IDs (added 1008, 1009): {student_ids}") # Amended 'Updated Student IDs (added 1008, 1009):' to improve clarity.
 
 completed_courses = {"Social Media", "English"}
 # Perform set operations
